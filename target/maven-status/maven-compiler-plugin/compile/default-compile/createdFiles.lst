@@ -1,0 +1,12 @@
+com\paymentremindersystem\Emi.class
+com\paymentremindersystem\ReminderHistory.class
+com\paymentremindersystem\Customer.class
+com\paymentremindersystem\Channel.class
+com\paymentremindersystem\Loan.class
+com\paymentremindersystem\PaymentReminderEngine.class
+com\paymentremindersystem\Reminder.class
+com\paymentremindersystem\ReminderStep.class
+com\paymentremindersystem\InMemoryReminderHistory.class
+com\paymentremindersystem\App.class
+com\paymentremindersystem\ReminderSender.class
+com\paymentremindersystem\ReminderPolicy.class
