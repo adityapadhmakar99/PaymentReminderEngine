@@ -10,13 +10,13 @@ import java.util.Collection;
 
 
 
-public final class PaymentReminderEngine {
+public final class PaymentReminderService {
 
     private final ReminderPolicy policy;
     private final ReminderSender sender;
     private final ReminderHistory history;
 
-    public PaymentReminderEngine(ReminderPolicy policy, ReminderSender sender, ReminderHistory history) {
+    public PaymentReminderService(ReminderPolicy policy, ReminderSender sender, ReminderHistory history) {
         if (policy == null || sender == null || history == null) {
             throw new IllegalArgumentException("policy, sender, and history are required");
         }
